@@ -1,0 +1,19 @@
+.DS_Store
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Training outputs and local artifacts
+*/logs/
+*/models/*.pt
+*/models/*.pth
+
+# Large or local-only data artifacts
+*/data/raw/
