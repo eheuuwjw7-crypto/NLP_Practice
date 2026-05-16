@@ -4,6 +4,9 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.env
+.env.*
+!.env.example
 
 # Python environments
 .venv/
@@ -15,7 +18,15 @@ logs/
 **/logs/
 *.pt
 *.pth
+*.safetensors
+events.out.tfevents.*
 
 # Large or local-only data artifacts
 data/raw/
 **/data/raw/
+pretrained/
+**/pretrained/
+hf_local/
+**/hf_local/
+checkpoint/last/
+**/checkpoint/last/
